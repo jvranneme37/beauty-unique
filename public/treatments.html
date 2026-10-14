@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Unique - Treatments | Outdoor Day Spa Menu</title>
+    <meta name="description" content="The full Beauty Unique treatment menu: massages and hot stone therapy, facials and peels, manicures, pedicures, nail systems and waxing in Potchefstroom.">
+    <link rel="canonical" href="https://beautyuniqueoutdoorspa.com/treatments">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Treatments | Beauty Unique Outdoor Day Spa">
+    <meta property="og:description" content="A tranquil escape where treatments are enjoyed in nature, right next to the Mooirivier.">
+    <meta property="og:url" content="https://beautyuniqueoutdoorspa.com/treatments">
+    <meta property="og:image" content="https://beautyuniqueoutdoorspa.com/img/hero.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sage: '#2D4739',
+                        sand: '#FAF8F5',
+                        gold: '#C19A6B',
+                        charcoal: '#2C2C2C',
+                        white: '#FFFFFF'
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="bg-sand text-charcoal font-sans antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="bg-white/95 backdrop-blur-md border-b border-sage/5 py-4 px-4 sticky top-0 z-40 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto flex items-center justify-between h-16">
+            <a href="/" class="flex items-center gap-3">
+                <div class="bg-sage rounded-full w-12 h-12 flex items-center justify-center border border-gold/40 shadow-sm shrink-0">
+                    <span class="text-gold text-xl font-serif">𓆸</span>
+                </div>
+                <div class="flex flex-col">
+                    <h1 class="font-serif text-lg sm:text-2xl font-bold tracking-[0.15em] text-sage leading-none">BEAUTY UNIQUE</h1>
+                    <span class="text-[8px] sm:text-[9px] tracking-[0.35em] text-gold font-bold uppercase mt-1">Outdoor Day Spa &bull; Potchefstroom</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:flex items-center gap-8 text-xs font-semibold uppercase tracking-widest text-sage">
+                <a href="/" class="nav-link text-gray-500 hover:text-sage transition-colors duration-300">Home</a>
+                <a href="/treatments" class="nav-link text-gold font-bold transition-colors duration-300">Treatments</a>
+                <a href="/packages" class="nav-link text-gray-500 hover:text-sage transition-colors duration-300">Packages</a>
+                <a href="/etiquette" class="nav-link text-gray-500 hover:text-sage transition-colors duration-300">Etiquette</a>
+                <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="bg-sage text-white px-6 py-3.5 hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Now</a>
+            </nav>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="mobile-menu-btn" class="lg:hidden text-sage text-2xl focus:outline-none p-2 shrink-0 transition-transform active:scale-95" aria-label="Toggle Menu">
+                <span class="block w-6 h-0.5 bg-sage mb-1.5 transition-all" id="bar1"></span>
+                <span class="block w-6 h-0.5 bg-sage mb-1.5 transition-all" id="bar2"></span>
+                <span class="block w-6 h-0.5 bg-sage transition-all" id="bar3"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Slide-Down Menu Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-sage/5 py-6 px-4 space-y-4 absolute top-full left-0 w-full shadow-lg animate-fade-in z-50">
+            <a href="/" class="block text-sm font-semibold uppercase tracking-wider text-sage py-2 border-b border-sand hover:text-gold transition-colors">Home</a>
+            <a href="/treatments" class="block text-sm font-semibold uppercase tracking-wider text-gold py-2 border-b border-sand">Treatments</a>
+            <a href="/packages" class="block text-sm font-semibold uppercase tracking-wider text-sage py-2 border-b border-sand hover:text-gold transition-colors">Packages</a>
+            <a href="/etiquette" class="block text-sm font-semibold uppercase tracking-wider text-sage py-2 border-b border-sand hover:text-gold transition-colors">Etiquette</a>
+            <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="block text-center bg-sage text-white text-xs font-bold uppercase tracking-widest py-3.5 shadow">Book Now</a>
+        </div>
+    </header>
+
+        <main class="flex-grow">
+        <!-- HEADER BLOCK -->
+        <section class="bg-sage text-white py-20 sm:py-24 px-4 text-center relative overflow-hidden">
+            <img src="/.netlify/images?url=/img/stairs2.jpeg&w=1800&h=700&fit=cover&fm=webp&q=78"
+                 alt="Timber deck and railing set among the trees at the spa" class="absolute inset-0 w-full h-full object-cover" fetchpriority="high">
+            <div class="absolute inset-0 bg-sage/85"></div>
+            <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#FAF8F5 1.5px, transparent 1.5px); background-size: 20px 20px;"></div>
+            <div class="max-w-4xl mx-auto relative z-10 space-y-3">
+                <span class="text-gold uppercase tracking-[0.25em] font-bold text-xs sm:text-sm block">Our Menu of Services</span>
+                <h2 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-light tracking-wide leading-none">Therapeutic Spa Menu</h2>
+                <p class="max-w-lg mx-auto text-xs sm:text-sm text-gray-300 font-light font-serif italic">
+                    At Beauty Unique Outdoor Day Spa, we offer a range of treatments designed to help you relax, feel cared for, and enjoy true beauty and wellness in our peaceful natural setting.
+                </p>
+            </div>
+        </section>
+
+        <!-- STICKY CATEGORY NAVIGATOR (Converted to Interactive Tab Triggers) -->
+        <div class="sticky-category-nav bg-white/95 backdrop-blur-md border-b border-gray-200/50 py-3 shadow-md" data-categories="massages,facials,manis,nails,waxing">
+            <div class="max-w-5xl mx-auto px-4 flex items-center justify-between gap-4">
+                <span class="text-xs font-bold text-sage uppercase tracking-widest hidden sm:inline-block">Select Category:</span>
+                <div class="flex overflow-x-auto gap-2 w-full sm:w-auto scrollbar-thin pb-1">
+                    <button id="tab-btn-massages" onclick="setActiveTab('massages')" class="category-tab-btn active-subnav bg-sand text-sage hover:bg-sage hover:text-white px-4 py-2 text-[10px] uppercase tracking-wider font-semibold transition-all shrink-0 rounded">Massages</button>
+                    <button id="tab-btn-facials" onclick="setActiveTab('facials')" class="category-tab-btn bg-sand text-sage hover:bg-sage hover:text-white px-4 py-2 text-[10px] uppercase tracking-wider font-semibold transition-all shrink-0 rounded">Facials & Peels</button>
+                    <button id="tab-btn-manis" onclick="setActiveTab('manis')" class="category-tab-btn bg-sand text-sage hover:bg-sage hover:text-white px-4 py-2 text-[10px] uppercase tracking-wider font-semibold transition-all shrink-0 rounded">Manis & Pedis</button>
+                    <button id="tab-btn-nails" onclick="setActiveTab('nails')" class="category-tab-btn bg-sand text-sage hover:bg-sage hover:text-white px-4 py-2 text-[10px] uppercase tracking-wider font-semibold transition-all shrink-0 rounded">Nail Systems</button>
+                    <button id="tab-btn-waxing" onclick="setActiveTab('waxing')" class="category-tab-btn bg-sand text-sage hover:bg-sage hover:text-white px-4 py-2 text-[10px] uppercase tracking-wider font-semibold transition-all shrink-0 rounded">Waxing</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MENU CONTENT WRAPPER -->
+        <section class="py-12 max-w-7xl mx-auto px-4 sm:px-6">
+
+            <!-- ================= 1. MASSAGES TAB SECTION ================= -->
+            <div id="sec-massages" class="space-y-8 animate-fade-in block">
+                <!-- Section Header -->
+                <div class="photo-frame h-44 sm:h-60 shadow-sm">
+                    <img src="/.netlify/images?url=/img/massage4.jpeg&w=1400&h=480&fit=cover&fm=webp&q=78"
+                         alt="Two massage beds prepared side by side under the trees" loading="lazy">
+                </div>
+                <div class="bg-white p-6 sm:p-8 border border-sage/5 shadow-sm">
+                    <span class="text-gold font-serif text-lg italic block mb-1">Therapeutic Bodywork</span>
+                    <h3 class="font-serif text-3xl text-sage font-bold tracking-wide">Massages & Hot Stone Additions</h3>
+                    <p class="text-xs text-gray-500 mt-2 font-light">Relax and unwind with our range of massage treatments designed to relieve stress and tension.</p>
+                </div>
+                
+                <!-- Cards Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Card 1: Back, Neck & Shoulder Massages -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Back, Neck & Shoulder</h4>
+                                <span class="text-xs text-gold font-mono uppercase tracking-wider">Classic</span>
+                            </div>
+                            
+                            <!-- BNS 30 min -->
+                            <div class="space-y-1">
+                                <div class="flex justify-between items-baseline">
+                                    <span class="text-xs text-gray-500 font-semibold uppercase tracking-wider">30 Min Session</span>
+                                    <span class="text-sm font-mono font-bold text-sage">R330</span>
+                                </div>
+                                <div class="flex justify-between items-baseline text-xs text-gold font-semibold">
+                                    <span>Couples Upgrade</span>
+                                    <span class="font-mono">R600</span>
+                                </div>
+                            </div>
+
+                            <!-- BNS 60 min -->
+                            <div class="space-y-1 border-t border-gray-100 pt-3">
+                                <div class="flex justify-between items-baseline">
+                                    <span class="text-xs text-gray-500 font-semibold uppercase tracking-wider">60 Min Session</span>
+                                    <span class="text-sm font-mono font-bold text-sage">R600</span>
+                                </div>
+                                <div class="flex justify-between items-baseline text-xs text-gold font-semibold">
+                                    <span>Couples Upgrade</span>
+                                    <span class="font-mono">R1,100</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Signature Full & Half Body -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Body & Reflex Balances</h4>
+                                <span class="text-xs text-gold font-mono uppercase tracking-wider">Signature</span>
+                            </div>
+                            
+                            <!-- Full Body -->
+                            <div class="space-y-1">
+                                <div class="flex justify-between items-baseline">
+                                    <span class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Full Body (60 Min)</span>
+                                    <span class="text-sm font-mono font-bold text-sage">R610</span>
+                                </div>
+                                <div class="flex justify-between items-baseline text-xs text-gold font-semibold">
+                                    <span>Couples Upgrade</span>
+                                    <span class="font-mono">R1,100</span>
+                                </div>
+                            </div>
+
+                            <!-- Half Body -->
+                            <div class="space-y-1 border-t border-gray-100 pt-3">
+                                <div class="flex justify-between items-baseline">
+                                    <span class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Half Body (40 Min)</span>
+                                    <span class="text-sm font-mono font-bold text-sage">R360</span>
+                                </div>
+                                <div class="flex justify-between items-baseline text-xs text-gold font-semibold">
+                                    <span>Couples Upgrade</span>
+                                    <span class="font-mono">R660</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Head & Foot Specialities -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Head & Foot Therapy</h4>
+                                <span class="text-xs text-gold font-mono uppercase tracking-wider">Targeted</span>
+                            </div>
+                            
+                            <!-- Indian Head -->
+                            <div class="space-y-1">
+                                <div class="flex justify-between items-baseline">
+                                    <span class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Indian Head (30 Min)</span>
+                                    <span class="text-sm font-mono font-bold text-sage">R240</span>
+                                </div>
+                                <div class="flex justify-between items-baseline text-xs text-gold font-semibold">
+                                    <span>Couples Upgrade</span>
+                                    <span class="font-mono">R440</span>
+                                </div>
+                            </div>
+
+                            <!-- Foot Massages -->
+                            <div class="space-y-2 border-t border-gray-100 pt-3">
+                                <span class="text-xs text-gray-500 font-bold uppercase tracking-wider block mb-1 text-[#C19A6B]">Foot Massages (Individual Only)</span>
+                                <div class="flex justify-between text-xs">
+                                    <span>30 Min Duration</span>
+                                    <span class="font-mono font-bold">R250</span>
+                                </div>
+                                <div class="flex justify-between text-xs border-t border-gray-50 pt-1">
+                                    <span>45 Min Duration</span>
+                                    <span class="font-mono font-bold">R380</span>
+                                </div>
+                                <div class="flex justify-between text-xs border-t border-gray-50 pt-1">
+                                    <span>60 Min Duration</span>
+                                    <span class="font-mono font-bold">R490</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Hot Stone Addon Promo Banner -->
+                <div class="bg-white p-6 border border-gold/20 flex flex-col sm:flex-row justify-between sm:items-center gap-4">
+                    <div class="space-y-1">
+                        <span class="text-[9px] font-mono tracking-widest text-gold uppercase font-bold block">Optional Upgrade</span>
+                        <h4 class="font-serif text-lg text-sage font-bold">Add Hot Stones to Any Massage</h4>
+                        <p class="text-xs text-gray-500 font-light">Elevate your recovery experience by combining volcanic thermal stones with your chosen treatment.</p>
+                    </div>
+                    <span class="font-mono font-bold text-[#C19A6B] text-xl self-start sm:self-auto shrink-0 bg-sand px-4 py-2 border border-gold/15">R80 pp extra</span>
+                </div>
+
+                <div class="bg-white p-4 border border-sage/5 text-xs text-gray-400 flex flex-col sm:flex-row justify-between gap-2">
+                    <span>Licensed Therapists: Cedes, Zanne, Karin, Anne-Marie, Nianca</span>
+                </div>
+            </div>
+
+            <!-- ================= 2. FACIALS TAB SECTION ================= -->
+            <div id="sec-facials" class="space-y-8 animate-fade-in hidden">
+                <!-- Section Header -->
+                <div class="photo-frame h-44 sm:h-60 shadow-sm">
+                    <img src="/.netlify/images?url=/img/relaxingarea.jpeg&w=1400&h=480&fit=cover&fm=webp&q=78"
+                         alt="Facial bed beneath a thatched roof with linen curtains" loading="lazy">
+                </div>
+                <div class="bg-white p-6 sm:p-8 border border-sage/5 shadow-sm">
+                    <span class="text-gold font-serif text-lg italic block mb-1">Dermal Radiance & Peels</span>
+                    <h3 class="font-serif text-3xl text-sage font-bold tracking-wide">Skin Therapy & Facial Systems</h3>
+                    <p class="text-xs text-gray-500 mt-2 font-light">Enjoy a refreshing facial treatment tailored to your skin's needs, designed to leave your skin feeling clean, refreshed, and radiant.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    
+                    <!-- Card 1: Eye Tint & Shape -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Eye Tint & Shape</h4>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2.5 text-xs">
+                                <div class="flex justify-between items-baseline py-1"><span>Eyebrow Tint (30 min)</span><strong class="font-mono">R110</strong></div>
+                                <div class="flex justify-between items-baseline py-1 border-t border-gray-50 pt-1.5"><span>Eyelash Tint (30 min)</span><strong class="font-mono">R150</strong></div>
+                                <div class="flex justify-between items-baseline py-1 border-t border-gray-50 pt-1.5"><span>Eyebrow Shape (30 min)</span><strong class="font-mono">R110</strong></div>
+                                <div class="flex justify-between items-baseline py-1 border-t border-gray-50 pt-1.5 font-semibold text-sage"><span>Combo 1: Eyebrow Tint & Shape (30 min)</span><strong class="font-mono text-gold">R170</strong></div>
+                                <div class="flex justify-between items-baseline py-1 border-t border-gray-50 pt-1.5 font-semibold text-sage"><span>Combo 2: Eyebrow & Eyelash Tint + Shape (45 min)</span><strong class="font-mono text-gold">R220</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Willa Krause Skin Care -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Willa Krause Skin Care</h4>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2 text-xs">
+                                <div class="flex justify-between items-baseline"><span>Express Facial (45 min)</span><strong class="font-mono">R400</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Relaxing Facial (60 min)</span><strong class="font-mono">R490</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Men's Deep Cleanse Facial (60 min)</span><strong class="font-mono">R490</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Teenage Deep Cleanse Facial (60 min)</span><strong class="font-mono">R400</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Deep Cleanse Facial (60 min)</span><strong class="font-mono">R490</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5 font-semibold text-sage"><span>Lymphatic Cleanse Facial (60 min)</span><strong class="font-mono text-gold">R520</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5 font-semibold text-sage"><span>Rejuvenating Facial (60 min)</span><strong class="font-mono text-gold">R520</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Active Facial Peels -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Active Facial Peels</h4>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-3 text-xs">
+                                <div class="flex justify-between items-baseline"><span>35% Glycolic Peel (60 min)</span><strong class="font-mono">R490</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>6x 35% Glycolic Peels Package</span><strong class="font-mono text-gold">R2,500</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2 font-semibold text-gold"><span>Add Light Therapy (20 min)</span><strong class="font-mono">R50 extra</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: SQT Bio Microneedling -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Dr. Esthé BIO Microneedling</h4>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-3 text-xs">
+                                <div class="flex justify-between items-baseline"><span>Acne Bio Microneedling (60 min)</span><strong class="font-mono text-sage">R1,900</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>Illuminating Bio Microneedling (60 min)</span><strong class="font-mono text-sage">R1,900</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2 font-semibold text-sage"><span>Rejuvenating Bio Microneedling (60 min)</span><strong class="font-mono text-gold">R2,300</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Structured Specialist Footer Split Across Distinct Lines (Matching image_52be40.png layout) -->
+                <div class="bg-white p-4 border border-sage/5 text-xs text-gray-400 flex flex-col gap-1.5 animate-fade-in">
+                    <span class="block">Eye Tint Specialists: Zanne, Anne-Marie, Nianca</span>
+                    <span class="block">Facials & Peels Specialists: Zanne, Karin, Anne-Marie, Nianca</span>
+                    <span class="block">Dr. Esthé Specialists: Zanne, Karin, Anne-Marie, Nianca, Cedes</span>
+                </div>
+            </div>
+
+            <!-- ================= 3. MANICURES & PEDICURES TAB SECTION ================= -->
+            <div id="sec-manis" class="space-y-8 animate-fade-in hidden">
+                <!-- Section Header -->
+                <div class="photo-frame h-44 sm:h-60 shadow-sm">
+                    <img src="/.netlify/images?url=/img/pedichair1.jpeg&w=1400&h=480&fit=cover&fm=webp&q=78"
+                         alt="Pedicure loungers on the shaded garden deck" loading="lazy">
+                </div>
+                <div class="bg-white p-6 sm:p-8 border border-sage/5 shadow-sm">
+                    <span class="text-gold font-serif text-lg italic block mb-1">Nail Grooming & Relaxation</span>
+                    <h3 class="font-serif text-3xl text-sage font-bold tracking-wide">Manicures & Pedicures</h3>
+                    <p class="text-xs text-gray-500 mt-2 font-light">Perfect for both relaxation and grooming, our treatments are designed with high attention to structural nail health.</p>
+                </div>
+
+                <!-- Signature Packs Detailed Asymmetric Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-bold">Signature Manicure</h4>
+                                <span class="font-mono text-sm font-bold text-gold bg-sand px-3 py-1 border border-gold/15">R390</span>
+                            </div>
+                            <p class="text-[10px] text-gold uppercase tracking-wider font-mono">90 min duration</p>
+                            <p class="text-xs text-gray-500 leading-relaxed font-light">Hand soak, scrub, cuticle care, nail cut and shape, gel overlay, cuticle oil, paraffin treatment, and a relaxing arm massage up to the elbow.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-bold">Signature Pedicure</h4>
+                                <span class="font-mono text-sm font-bold text-gold bg-sand px-3 py-1 border border-gold/15">R390</span>
+                            </div>
+                            <p class="text-[10px] text-gold uppercase tracking-wider font-mono">90 min duration</p>
+                            <p class="text-xs text-gray-500 leading-relaxed font-light">Dry file, soak, scrub, cuticle care, nail cut and shape, gel overlay, cuticle oil, paraffin treatment, and lower-limb massage up to the knee.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core Pedicures & Manicures Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Card 1: Standard Maintenance -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h5 class="font-serif text-base font-bold text-sage">Standard Maintenance</h5>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2 text-xs">
+                                <div class="flex justify-between items-baseline"><span>Authentic Manicure (60m)</span><strong class="font-mono">R260</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>Authentic Pedicure (60m)</span><strong class="font-mono">R260</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>Manicure without Varnish (45m)</span><strong class="font-mono text-gray-500">R220</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>Pedicure without Varnish (45m)</span><strong class="font-mono text-gray-500">R220</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Gel Overlay Treatments -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h5 class="font-serif text-base font-bold text-sage">Gel Overlays</h5>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2 text-xs">
+                                <div class="flex justify-between items-baseline"><span>Mani with Gel Overlay (90m)</span><strong class="font-mono">R330</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>Pedi with Gel Overlay (90m)</span><strong class="font-mono">R330</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2 font-semibold text-gold"><span>Buff & Shine Manicure (30m)</span><strong class="font-mono">R110</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2 font-semibold text-gold"><span>Buff & Shine Pedicure (30m)</span><strong class="font-mono">R110</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Paraffin & Dry File Upgrades -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h5 class="font-serif text-base font-bold text-sage">Paraffin & File Care</h5>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2 text-xs">
+                                <div class="flex justify-between items-baseline"><span>Paraffin Treatment Alone (30m)</span><strong class="font-mono">R160</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>Dry File & Massage Pedi (45m)</span><strong class="font-mono">R150</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2 font-semibold text-sage"><span>Dry File & Paraffin Pedi (40m)</span><strong class="font-mono text-gold">R200</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2 font-semibold text-gold"><span>Add Paraffin to any Session</span><strong class="font-mono">R100 extra</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-white p-4 border border-sage/5 text-xs text-gray-400">
+                    <span>Registered Grooming Therapists: Cedes, Zanne, Karin, Anne-Marie, Nianca</span>
+                </div>
+            </div>
+
+            <!-- ================= 4. NAIL SYSTEMS TAB SECTION ================= -->
+            <div id="sec-nails" class="space-y-8 animate-fade-in hidden">
+                <!-- Section Header -->
+                <div class="photo-frame h-44 sm:h-60 shadow-sm">
+                    <img src="/.netlify/images?url=/img/table.jpeg&w=1400&h=480&fit=cover&fm=webp&q=78"
+                         alt="Manicure table dressed with linen on the riverside deck" loading="lazy">
+                </div>
+                <div class="bg-white p-6 sm:p-8 border border-sage/5 shadow-sm">
+                    <span class="text-gold font-serif text-lg italic block mb-1">Nelé & Gracé Systems</span>
+                    <h3 class="font-serif text-3xl text-sage font-bold tracking-wide">Nail Sculptures & Overlays</h3>
+                    <p class="text-xs text-gray-500 mt-2 font-light">Elegantly engineered products used for robust and beautiful results. Acrylic operations are exclusively registered to Cedes.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Card 1: Acrylic / Gracé Nails -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow lg:col-span-1">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Acrylic / Gracé</h4>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2 text-xs">
+                                <div class="flex justify-between items-baseline"><span>Acrylic Overlay (60 min)</span><strong class="font-mono">R300</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Acrylic French Overlay (60 min)</span><strong class="font-mono">R320</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Acrylic Tips (90 min)</span><strong class="font-mono">R360</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Acrylic French Tips (90 min)</span><strong class="font-mono">R380</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Acrylic Colour Change (60 min)</span><strong class="font-mono text-gray-500">R270</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5 font-semibold text-sage"><span>Medium Sculpture (120 min)</span><strong class="font-mono text-gold">R410</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5 font-semibold text-sage"><span>Long Sculpture (120 min)</span><strong class="font-mono text-gold">R470</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Rubber Based Gel Nails -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow lg:col-span-1">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Rubber Based Gel</h4>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2 text-xs">
+                                <div class="flex justify-between items-baseline"><span>Gel Overlay (60 min)</span><strong class="font-mono">R250</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>French Gel Overlay (60 min)</span><strong class="font-mono">R270</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5 text-gold font-semibold"><span>French Overlay (High School Clients) (60 min)</span><strong class="font-mono">R220</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Toe Gel Overlay (60 min)</span><strong class="font-mono">R220</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>French Toe Gel Overlay (60 min)</span><strong class="font-mono">R240</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Other Nail Treatments -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow lg:col-span-1">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Care & Artistry</h4>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2 text-xs">
+                                <div class="flex justify-between items-baseline"><span>Soak with Mini Manicure (60 min)</span><strong class="font-mono">R160</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>Soak-off before Reapply (20 min)</span><strong class="font-mono">R70</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2 font-semibold text-sage"><span>Repair Per Nail (15 min)</span><strong class="font-mono">R35</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2 font-semibold text-gold"><span>Nail Artistry (Per Nail)</span><strong class="font-mono">R10 - R20</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Specialist Roster Footer, split on exactly two distinct lines -->
+                <div class="bg-white p-4 border border-sage/5 text-xs text-gray-400 flex flex-col gap-1.5 animate-fade-in">
+                    <span class="block">Overlays & Artistry Therapists: Cedes, Zanne, Karin, Anne-Marie, Nianca</span>
+                    <span class="block">Acrylic Operations: Exclusive to <span class="text-sage font-bold">Cedes</span></span>
+                </div>
+            </div>
+
+            <!-- ================= 5. WAXING TAB SECTION ================= -->
+            <div id="sec-waxing" class="space-y-8 animate-fade-in hidden">
+                <!-- Section Header -->
+                <div class="photo-frame h-44 sm:h-60 shadow-sm">
+                    <img src="/.netlify/images?url=/img/massage5.jpeg&w=1400&h=480&fit=cover&fm=webp&q=78"
+                         alt="Private ivy-covered walkway to a screened treatment room" loading="lazy">
+                </div>
+                <div class="bg-white p-6 sm:p-8 border border-sage/5 shadow-sm">
+                    <span class="text-gold font-serif text-lg italic block mb-1">Comfort Hair Removal</span>
+                    <h3 class="font-serif text-3xl text-sage font-bold tracking-wide">Hair Depilation & EpilFree Solutions</h3>
+                    <p class="text-xs text-gray-500 mt-2 font-light">Performed with maximum hygiene and soothing chamomile. EpilFree represents non-laser technology to achieve permanent results.</p>
+                </div>
+
+                <!-- EpilFree Highlight Card -->
+                <div class="bg-white p-6 border-l-4 border-gold flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                    <div class="space-y-1 max-w-xl">
+                        <span class="text-[9px] font-mono tracking-widest text-gold uppercase font-bold block">Scientific Breakthrough</span>
+                        <h4 class="font-serif text-xl text-sage font-bold">EpilFree Laser-Like Systems</h4>
+                        <p class="text-xs text-gray-600 font-light leading-relaxed">
+                            We offer advanced EpilFree non-laser permanent hair removal treatments to yield laser-like outcomes across all hair colors and skin types. Please enquire with our team during your consultation to customize a session course.
+                        </p>
+                    </div>
+                    <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="bg-sage text-white text-center hover:bg-gold hover:text-sage text-xs font-bold uppercase tracking-widest px-6 py-3.5 whitespace-nowrap shadow-sm h-fit">Enquire About EpilFree</a>
+                </div>
+
+                <!-- Waxing Grids -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Card 1: Face Waxing -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Face Waxing</h4>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2 text-xs">
+                                <div class="flex justify-between items-baseline"><span>Eyebrow Wax (30m)</span><strong class="font-mono">R110</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Between Eyebrows (15m)</span><strong class="font-mono">R35</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Nose Wax (20m)</span><strong class="font-mono">R55</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Lip Wax (20m)</span><strong class="font-mono">R45</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Chin Wax (30m)</span><strong class="font-mono">R65</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Ear Wax (20m)</span><strong class="font-mono">R60</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Face Wax (30m)</span><strong class="font-mono">R90</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5 font-semibold text-sage"><span>Face Combo * (30m)</span><strong class="font-mono text-gold">R160</strong></div>
+                            </div>
+                        </div>
+                        <p class="text-[9px] text-gray-400 font-mono mt-4">* Face Combo: Lip, Chin, and Face Sides.</p>
+                    </div>
+
+                    <!-- Card 2: Upper Body Waxing -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Upper Body Waxing</h4>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2 text-xs">
+                                <div class="flex justify-between items-baseline"><span>Underarm Wax (30m)</span><strong class="font-mono">R130</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>1/2 Arm Wax (45m)</span><strong class="font-mono">R160</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Full Arm Wax (45m)</span><strong class="font-mono">R180</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Chest Wax (30m)</span><strong class="font-mono text-gray-500">R110</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Stomach Wax (30m)</span><strong class="font-mono text-gray-500">R110</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Lower Back Wax (30m)</span><strong class="font-mono text-gray-500">R110</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5"><span>Upper Back Wax (30m)</span><strong class="font-mono text-gray-500">R110</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-1.5 font-semibold text-sage"><span>Full Back Wax (30m)</span><strong class="font-mono text-gold">R170</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Lower Body Waxing -->
+                    <div class="bg-white p-6 border border-sage/5 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-baseline border-b border-gray-100 pb-2">
+                                <h4 class="font-serif text-xl text-sage font-semibold">Lower Body Waxing</h4>
+                                <span class="text-gold text-lg">𓆸</span>
+                            </div>
+                            <div class="space-y-2.5 text-xs">
+                                <div class="flex justify-between items-baseline"><span>1/2 Leg Wax (30m)</span><strong class="font-mono">R175</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>3/4 Leg Wax (30m)</span><strong class="font-mono">R185</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>Full Leg Wax (45m)</span><strong class="font-mono">R200</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2"><span>Bikini Wax (30m)</span><strong class="font-mono">R165</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2 font-semibold text-sage"><span>Brazilian Wax (45m)</span><strong class="font-mono text-gold">R220</strong></div>
+                                <div class="flex justify-between items-baseline border-t border-gray-50 pt-2 font-semibold text-sage"><span>Hollywood Wax (45m)</span><strong class="font-mono text-gold">R260</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-white p-4 border border-sage/5 text-xs text-gray-400">
+                    <span>Registered Wax Specialists: Zanne, Anne-Marie, Nianca</span>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-sage text-[#FAF8F5] pt-16 pb-10 border-t-2 border-gold relative z-10">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-white/10 pb-12">
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2">
+                        <span class="text-gold text-2xl font-serif">𓆸</span>
+                        <h4 class="font-serif text-2xl font-bold tracking-wider uppercase">BEAUTY UNIQUE</h4>
+                    </div>
+                    <p class="text-xs text-gray-300 leading-relaxed font-light">
+                        Nestled along the scenic banks of the Mooirivier, where professional body care meets the complete sanctuary of nature.
+                    </p>
+                    <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-gold text-sage px-6 py-3 text-[10px] font-bold uppercase tracking-[0.25em] hover:bg-white transition-colors">Book Your Escape</a>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-serif text-lg text-gold tracking-widest uppercase">The Sanctuary gates</h5>
+                    <ul class="text-xs text-gray-300 space-y-2.5 font-light">
+                        <li>📍 1 Nardus Conradie Street, Mooivallei Park, Potchefstroom</li>
+                        <li>📞 Phone: <a href="tel:+27834510586" class="hover:text-gold transition-colors">083 451 0586</a></li>
+                        <li>✉️ Email: <a href="mailto:beautyunique.amdb@gmail.com" class="hover:text-gold transition-colors">beautyunique.amdb@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-serif text-lg text-gold tracking-widest uppercase">Hours of Serenity</h5>
+                    <ul class="text-xs text-gray-300 space-y-2 font-light">
+                        <li>Monday — Friday: 8:00 AM — 5:00 PM</li>
+                        <li>Saturday: 9:00 AM — 1:00 PM</li>
+                    </ul>
+                    <ul class="text-xs text-gray-300 space-y-2 font-light pt-4 border-t border-white/10">
+                        <li><a href="/treatments" class="hover:text-gold transition-colors">Treatments</a></li>
+                        <li><a href="/packages" class="hover:text-gold transition-colors">Spa Packages</a></li>
+                        <li><a href="/etiquette" class="hover:text-gold transition-colors">Etiquette</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 text-center text-[10px] text-gray-400">
+                <p>&copy; 2000 - 2026 Beauty Unique Outdoor Day Spa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/site.js" defer></script>
+</body>
+</html>

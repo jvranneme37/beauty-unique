@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Unique - Packages | Half Day, Full Day, Couples &amp; Groups</title>
+    <meta name="description" content="Curated spa packages at Beauty Unique Outdoor Day Spa: half day and full day escapes, couples journeys and group gatherings beside the Mooirivier.">
+    <link rel="canonical" href="https://beautyuniqueoutdoorspa.com/packages">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Spa Packages | Beauty Unique Outdoor Day Spa">
+    <meta property="og:description" content="A tranquil escape where treatments are enjoyed in nature, right next to the Mooirivier.">
+    <meta property="og:url" content="https://beautyuniqueoutdoorspa.com/packages">
+    <meta property="og:image" content="https://beautyuniqueoutdoorspa.com/img/hero.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sage: '#2D4739',
+                        sand: '#FAF8F5',
+                        gold: '#C19A6B',
+                        charcoal: '#2C2C2C',
+                        white: '#FFFFFF'
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="bg-sand text-charcoal font-sans antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="bg-white/95 backdrop-blur-md border-b border-sage/5 py-4 px-4 sticky top-0 z-40 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto flex items-center justify-between h-16">
+            <a href="/" class="flex items-center gap-3">
+                <div class="bg-sage rounded-full w-12 h-12 flex items-center justify-center border border-gold/40 shadow-sm shrink-0">
+                    <span class="text-gold text-xl font-serif">𓆸</span>
+                </div>
+                <div class="flex flex-col">
+                    <h1 class="font-serif text-lg sm:text-2xl font-bold tracking-[0.15em] text-sage leading-none">BEAUTY UNIQUE</h1>
+                    <span class="text-[8px] sm:text-[9px] tracking-[0.35em] text-gold font-bold uppercase mt-1">Outdoor Day Spa &bull; Potchefstroom</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:flex items-center gap-8 text-xs font-semibold uppercase tracking-widest text-sage">
+                <a href="/" class="nav-link text-gray-500 hover:text-sage transition-colors duration-300">Home</a>
+                <a href="/treatments" class="nav-link text-gray-500 hover:text-sage transition-colors duration-300">Treatments</a>
+                <a href="/packages" class="nav-link text-gold font-bold transition-colors duration-300">Packages</a>
+                <a href="/etiquette" class="nav-link text-gray-500 hover:text-sage transition-colors duration-300">Etiquette</a>
+                <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="bg-sage text-white px-6 py-3.5 hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Now</a>
+            </nav>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="mobile-menu-btn" class="lg:hidden text-sage text-2xl focus:outline-none p-2 shrink-0 transition-transform active:scale-95" aria-label="Toggle Menu">
+                <span class="block w-6 h-0.5 bg-sage mb-1.5 transition-all" id="bar1"></span>
+                <span class="block w-6 h-0.5 bg-sage mb-1.5 transition-all" id="bar2"></span>
+                <span class="block w-6 h-0.5 bg-sage transition-all" id="bar3"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Slide-Down Menu Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-sage/5 py-6 px-4 space-y-4 absolute top-full left-0 w-full shadow-lg animate-fade-in z-50">
+            <a href="/" class="block text-sm font-semibold uppercase tracking-wider text-sage py-2 border-b border-sand hover:text-gold transition-colors">Home</a>
+            <a href="/treatments" class="block text-sm font-semibold uppercase tracking-wider text-sage py-2 border-b border-sand hover:text-gold transition-colors">Treatments</a>
+            <a href="/packages" class="block text-sm font-semibold uppercase tracking-wider text-gold py-2 border-b border-sand">Packages</a>
+            <a href="/etiquette" class="block text-sm font-semibold uppercase tracking-wider text-sage py-2 border-b border-sand hover:text-gold transition-colors">Etiquette</a>
+            <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="block text-center bg-sage text-white text-xs font-bold uppercase tracking-widest py-3.5 shadow">Book Now</a>
+        </div>
+    </header>
+
+        <main class="flex-grow">
+        <!-- PAGE HERO -->
+        <section class="bg-sage text-sand relative overflow-hidden">
+            <img src="/.netlify/images?url=/img/massage5.jpeg&w=1800&h=900&fit=cover&fm=webp&q=78"
+                 alt="Ivy tunnel walkway leading to a private treatment room" class="absolute inset-0 w-full h-full object-cover" fetchpriority="high">
+            <div class="absolute inset-0 bg-sage/85"></div>
+            <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#FAF8F5 1.5px, transparent 1.5px); background-size: 20px 20px;"></div>
+            <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+                <div class="space-y-5">
+                    <span class="text-gold uppercase tracking-[0.35em] font-bold text-[11px] block">Curated Journeys</span>
+                    <h2 class="font-serif text-4xl sm:text-6xl font-light leading-none">Spa <span class="italic text-gold">Packages</span></h2>
+                    <p class="max-w-md text-sm sm:text-base text-gray-200 font-light leading-relaxed font-serif italic">
+                        Half day and full day escapes, shared couples journeys and celebrations with your favourite people — all enjoyed outdoors on the banks of the Mooirivier.
+                    </p>
+                </div>
+                <div class="photo-frame aspect-[16/10] rounded-[1.5rem] shadow-2xl border border-gold/20 hidden lg:block">
+                    <img src="/.netlify/images?url=/img/relaxingarea.jpeg&w=900&h=560&fit=cover&fm=webp&q=78"
+                         alt="Massage bed under thatch with curtains open to the garden" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- COLLECTION SELECTOR -->
+        <div class="sticky-category-nav bg-white/95 backdrop-blur-md border-b border-gray-200/50 py-3 shadow-md" data-categories="halfday,fullday,couples,groups">
+            <div class="max-w-5xl mx-auto px-4 flex items-center justify-between gap-4">
+                <span class="text-xs font-bold text-sage uppercase tracking-widest hidden sm:inline-block">Select Collection:</span>
+                <div class="flex overflow-x-auto gap-2 w-full sm:w-auto scrollbar-thin pb-1">
+                    <button id="tab-btn-halfday" onclick="setActiveTab('halfday')" class="category-tab-btn active-subnav bg-sand text-sage hover:bg-sage hover:text-white px-5 py-2.5 text-[10px] uppercase tracking-wider font-semibold transition-all shrink-0 rounded">Half Day</button>
+                    <button id="tab-btn-fullday" onclick="setActiveTab('fullday')" class="category-tab-btn bg-sand text-sage hover:bg-sage hover:text-white px-5 py-2.5 text-[10px] uppercase tracking-wider font-semibold transition-all shrink-0 rounded">Full Day</button>
+                    <button id="tab-btn-couples" onclick="setActiveTab('couples')" class="category-tab-btn bg-sand text-sage hover:bg-sage hover:text-white px-5 py-2.5 text-[10px] uppercase tracking-wider font-semibold transition-all shrink-0 rounded">Couples</button>
+                    <button id="tab-btn-groups" onclick="setActiveTab('groups')" class="category-tab-btn bg-sand text-sage hover:bg-sage hover:text-white px-5 py-2.5 text-[10px] uppercase tracking-wider font-semibold transition-all shrink-0 rounded">Group Gatherings</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PACKAGE COLLECTIONS -->
+        <section class="py-16 sm:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- ================= HALF DAY ================= -->
+            <div id="sec-halfday" class="space-y-16 sm:space-y-20 animate-fade-in block">
+                <div class="max-w-2xl space-y-3">
+                    <span class="text-gold uppercase tracking-[0.25em] font-bold text-[11px] block">Curated Journeys</span>
+                    <h3 class="font-serif text-3xl sm:text-5xl text-sage font-light leading-none">Half Day Packages</h3>
+                    <p class="text-sm text-gray-600 font-light leading-relaxed">Designed to harmonize with nature, our curated packages offer a sanctuary for the soul amidst the dappled light of the forest.</p>
+                </div>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 ">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">Serenity Package</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R950</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">4 Hours of pure bliss</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Welcome drink on arrival</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Light breakfast or lunch</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Full back, neck &amp; shoulder massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Indian head massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Feet dry file &amp; paraffin wax</span>
+                                </li>
+                        </ul>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 ">
+                        <img src="/.netlify/images?url=/img/pedichair1.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Loungers beneath a thatched roof in the garden" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 lg:order-2">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">Bliss Package</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R1150</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">4 Hours of restoration</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Welcome drink on arrival</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Light breakfast or lunch</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Back, neck &amp; shoulder massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Relaxing tailored facial</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Indian head massage</span>
+                                </li>
+                        </ul>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 lg:order-1">
+                        <img src="/.netlify/images?url=/img/massage4.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Two massage beds dressed with towels under the trees" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 ">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">Let it Linger</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R800</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">3 Hours of riverside calm</p>
+                            <p class="text-sm text-gray-600 font-light leading-relaxed">Slow down and savour the moment with our most relaxed package.</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Cocktails by the river to conclude your stay</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Choice of hand or foot paraffin wax treatment</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Indian head massage &amp; back massage</span>
+                                </li>
+                        </ul>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 ">
+                        <img src="/.netlify/images?url=/img/front.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Rose garden and thatched spa house in full bloom" loading="lazy">
+                    </div>
+                </article>
+            </div>
+
+            <!-- ================= FULL DAY ================= -->
+            <div id="sec-fullday" class="space-y-16 sm:space-y-20 animate-fade-in hidden">
+                <div class="max-w-2xl space-y-3">
+                    <span class="text-gold uppercase tracking-[0.25em] font-bold text-[11px] block">Curated Journeys</span>
+                    <h3 class="font-serif text-3xl sm:text-5xl text-sage font-light leading-none">Full Day Packages</h3>
+                    <p class="text-sm text-gray-600 font-light leading-relaxed">Our most immersive experiences, designed to provide deep restoration and complete renewal from sunrise to sunset.</p>
+                </div>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 ">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">Cloud 9 Package</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R1980</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">6 Hours of absolute indulgence</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Welcome drink &amp; spa breakfast</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Swedish full body massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Authentic pedicure</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Relaxing Indian head massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Delightful spa lunch</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Rejuvenating facial</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Riverside cocktail finale</span>
+                                </li>
+                        </ul>
+                            <div class="bg-sand border border-sage/10 px-5 py-4 text-[11px] text-gray-600 space-y-1.5 rounded-lg">
+                                <p class="flex items-start gap-2"><span class="text-gold">&#10010;</span><span><strong class="font-semibold text-sage">Add-on:</strong> Gel Overlay to the Pedicure for R70 extra</span></p>
+                            </div>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 ">
+                        <img src="/.netlify/images?url=/img/hero.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Ivy archway leading to the thatched treatment gazebo" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 lg:order-2">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">Exclusive Package</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R1900</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">5 Hours 30 Mins of pure luxury</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Champagne arrival &amp; spa breakfast</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>BU Signature Pedicure</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Soothing Indian head massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Hot stone back, neck &amp; shoulder massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Indulgent spa lunch</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Relaxing tailored facial</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Riverside cocktail finish</span>
+                                </li>
+                        </ul>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 lg:order-1">
+                        <img src="/.netlify/images?url=/img/table1.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Table set for a spa lunch on a deck in the forest" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 ">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">Elegant Package</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R1580</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">4 Hours of graceful serenity</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Refreshing welcome drink</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Authentic manicure</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Relaxing facial</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Swedish full body massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Authentic pedicure</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Tranquil riverside cocktail</span>
+                                </li>
+                        </ul>
+                            <div class="bg-sand border border-sage/10 px-5 py-4 text-[11px] text-gray-600 space-y-1.5 rounded-lg">
+                                <p class="flex items-start gap-2"><span class="text-gold">&#10010;</span><span><strong class="font-semibold text-sage">Add-on:</strong> Gel Overlay on Nails R70 Extra</span></p>
+                                <p class="flex items-start gap-2"><span class="text-gold">&#10010;</span><span><strong class="font-semibold text-sage">Add-on:</strong> Gel Overlay on Toes R70 Extra</span></p>
+                            </div>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 ">
+                        <img src="/.netlify/images?url=/img/relaxingarea.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Treatment bed under a thatched roof with linen curtains" loading="lazy">
+                    </div>
+                </article>
+            </div>
+
+            <!-- ================= COUPLES ================= -->
+            <div id="sec-couples" class="space-y-16 sm:space-y-20 animate-fade-in hidden">
+                <div class="max-w-2xl space-y-3">
+                    <span class="text-gold uppercase tracking-[0.25em] font-bold text-[11px] block">Curated Journeys</span>
+                    <h3 class="font-serif text-3xl sm:text-5xl text-sage font-light leading-none">Couples Packages</h3>
+                    <p class="text-sm text-gray-600 font-light leading-relaxed">Designed for connection and harmony, our curated couples packages offer a shared sanctuary for the soul amidst nature's beauty.</p>
+                </div>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 ">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">All About Us Package</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R2200</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">3 Hours of shared bliss</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Refreshing welcome drink</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Authentic pedicure OR Indian head massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Swedish full body massage with scrub &amp; hot stones</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Cocktail beside the tranquil river</span>
+                                </li>
+                        </ul>
+                            <div class="bg-sand border border-sage/10 px-5 py-4 text-[11px] text-gray-600 space-y-1.5 rounded-lg">
+                                <p class="flex items-start gap-2"><span class="text-gold">&#10010;</span><span><strong class="font-semibold text-sage">Add-on:</strong> Gel Overlay on Toes R70 Extra</span></p>
+                            </div>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 ">
+                        <img src="/.netlify/images?url=/img/massage4.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Side by side massage beds prepared for two" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 lg:order-2">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">Refreshing Package</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R1900</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">2 Hours 30 Minutes of restoration</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Welcome drink on arrival</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Swedish back, neck and shoulder massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Relaxing tailored facial</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Delicious spa lunch</span>
+                                </li>
+                        </ul>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 lg:order-1">
+                        <img src="/.netlify/images?url=/img/stairs2.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Timber railing on the deck above the riverbank" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 ">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">Our Story Package</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R1680</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">2 Hours 30 Minutes of riverside calm</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Welcome drink on arrival</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Authentic pedicure to refresh feet</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Soothing Indian head massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Relaxing back, neck and shoulder massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Cocktails by the river</span>
+                                </li>
+                        </ul>
+                            <div class="bg-sand border border-sage/10 px-5 py-4 text-[11px] text-gray-600 space-y-1.5 rounded-lg">
+                                <p class="flex items-start gap-2"><span class="text-gold">&#10010;</span><span><strong class="font-semibold text-sage">Add-on:</strong> Gel Overlay on Toes R70 Extra</span></p>
+                            </div>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 ">
+                        <img src="/.netlify/images?url=/img/pedichair1.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Two loungers side by side in the shade of the trees" loading="lazy">
+                    </div>
+                </article>
+            </div>
+
+            <!-- ================= GROUP GATHERINGS ================= -->
+            <div id="sec-groups" class="space-y-16 sm:space-y-20 animate-fade-in hidden">
+                <div class="max-w-2xl space-y-3">
+                    <span class="text-gold uppercase tracking-[0.25em] font-bold text-[11px] block">Curated Journeys</span>
+                    <h3 class="font-serif text-3xl sm:text-5xl text-sage font-light leading-none">Group Gatherings Packages</h3>
+                    <p class="text-sm text-gray-600 font-light leading-relaxed">Celebrate together in nature's embrace. Our group packages are designed to foster connection, relaxation, and lasting memories with those who matter most.</p>
+                </div>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 ">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">The Brides Tribe</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R650</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">2 Hours of celebration</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Glass of champagne on arrival</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Swedish back, neck and shoulder massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Delicious snack platter</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Cocktails beside the tranquil river</span>
+                                </li>
+                        </ul>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 ">
+                        <img src="/.netlify/images?url=/img/table.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Rolled towels and linen on a table dressed for a group" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 lg:order-2">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">Girls Day Out</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R1100</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">3 Hours of group getaway</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Refreshing welcome drink</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Swedish full body massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Authentic pedicure OR Indian head massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Snack platter with cocktails or juice</span>
+                                </li>
+                        </ul>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 lg:order-1">
+                        <img src="/.netlify/images?url=/img/table1.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Long table laid out for a group under the forest canopy" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-center">
+                    <div class="space-y-5 ">
+                        <div class="flex items-baseline justify-between gap-6 border-b border-sage/10 pb-3">
+                            <h4 class="font-serif text-3xl sm:text-4xl text-sage font-normal leading-tight">Let's Escape</h4>
+                            <span class="font-serif text-2xl sm:text-3xl text-gold whitespace-nowrap">R700</span>
+                        </div>
+                        <p class="text-[11px] uppercase tracking-[0.2em] text-gray-500 font-semibold">1 Hour 30 Minutes of riverfront serenity</p>
+                        <ul class="space-y-2.5 text-sm text-gray-600 font-light border-l border-sage/10 pl-5">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Refreshing welcome drink</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Soothing Swedish full body massage</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-gold text-[11px] mt-1 shrink-0">&#10022;</span>
+                                    <span>Delicious cocktails on the riverbank</span>
+                                </li>
+                        </ul>
+                        <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-sage text-white px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Experience</a>
+                    </div>
+                    <div class="photo-frame aspect-[4/3] rounded-[1.25rem] shadow-md border border-sage/5 ">
+                        <img src="/.netlify/images?url=/img/road2.jpeg&w=900&h=675&fit=cover&fm=webp&q=78" alt="Wooden walkway winding down to the riverbank" loading="lazy">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ETIQUETTE PROMPT -->
+        <section class="bg-white border-t border-sage/5 py-14">
+            <div class="max-w-4xl mx-auto px-4 text-center space-y-4">
+                <span class="text-gold uppercase tracking-[0.25em] font-bold text-[10px] block">Before You Arrive</span>
+                <h4 class="font-serif text-2xl sm:text-3xl text-sage font-light">A 50% deposit secures your booking</h4>
+                <p class="text-sm text-gray-600 font-light max-w-xl mx-auto leading-relaxed">
+                    Package prices are per person unless stated otherwise. Please read our sanctuary etiquette for arrival times, deposits and cancellations.
+                </p>
+                <a href="/etiquette" class="inline-block border border-sage text-sage px-8 py-3.5 text-[11px] font-bold uppercase tracking-[0.25em] hover:bg-sage hover:text-white transition-all duration-300">Read Spa Etiquette</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-sage text-[#FAF8F5] pt-16 pb-10 border-t-2 border-gold relative z-10">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-white/10 pb-12">
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2">
+                        <span class="text-gold text-2xl font-serif">𓆸</span>
+                        <h4 class="font-serif text-2xl font-bold tracking-wider uppercase">BEAUTY UNIQUE</h4>
+                    </div>
+                    <p class="text-xs text-gray-300 leading-relaxed font-light">
+                        Nestled along the scenic banks of the Mooirivier, where professional body care meets the complete sanctuary of nature.
+                    </p>
+                    <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-gold text-sage px-6 py-3 text-[10px] font-bold uppercase tracking-[0.25em] hover:bg-white transition-colors">Book Your Escape</a>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-serif text-lg text-gold tracking-widest uppercase">The Sanctuary gates</h5>
+                    <ul class="text-xs text-gray-300 space-y-2.5 font-light">
+                        <li>📍 1 Nardus Conradie Street, Mooivallei Park, Potchefstroom</li>
+                        <li>📞 Phone: <a href="tel:+27834510586" class="hover:text-gold transition-colors">083 451 0586</a></li>
+                        <li>✉️ Email: <a href="mailto:beautyunique.amdb@gmail.com" class="hover:text-gold transition-colors">beautyunique.amdb@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-serif text-lg text-gold tracking-widest uppercase">Hours of Serenity</h5>
+                    <ul class="text-xs text-gray-300 space-y-2 font-light">
+                        <li>Monday — Friday: 8:00 AM — 5:00 PM</li>
+                        <li>Saturday: 9:00 AM — 1:00 PM</li>
+                    </ul>
+                    <ul class="text-xs text-gray-300 space-y-2 font-light pt-4 border-t border-white/10">
+                        <li><a href="/treatments" class="hover:text-gold transition-colors">Treatments</a></li>
+                        <li><a href="/packages" class="hover:text-gold transition-colors">Spa Packages</a></li>
+                        <li><a href="/etiquette" class="hover:text-gold transition-colors">Etiquette</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 text-center text-[10px] text-gray-400">
+                <p>&copy; 2000 - 2026 Beauty Unique Outdoor Day Spa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Unique - Home | Outdoor Day Spa Potchefstroom</title>
+    <meta name="description" content="Beauty Unique Outdoor Day Spa in Potchefstroom — massages, facials, nails and spa packages enjoyed outdoors on the banks of the Mooirivier.">
+    <link rel="canonical" href="https://beautyuniqueoutdoorspa.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Beauty Unique Outdoor Day Spa | Potchefstroom">
+    <meta property="og:description" content="A tranquil escape where treatments are enjoyed in nature, right next to the Mooirivier.">
+    <meta property="og:url" content="https://beautyuniqueoutdoorspa.com/">
+    <meta property="og:image" content="https://beautyuniqueoutdoorspa.com/img/hero.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sage: '#2D4739',
+                        sand: '#FAF8F5',
+                        gold: '#C19A6B',
+                        charcoal: '#2C2C2C',
+                        white: '#FFFFFF'
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="bg-sand text-charcoal font-sans antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="bg-white/95 backdrop-blur-md border-b border-sage/5 py-4 px-4 sticky top-0 z-40 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto flex items-center justify-between h-16">
+            <a href="/" class="flex items-center gap-3">
+                <div class="bg-sage rounded-full w-12 h-12 flex items-center justify-center border border-gold/40 shadow-sm shrink-0">
+                    <span class="text-gold text-xl font-serif">𓆸</span>
+                </div>
+                <div class="flex flex-col">
+                    <h1 class="font-serif text-lg sm:text-2xl font-bold tracking-[0.15em] text-sage leading-none">BEAUTY UNIQUE</h1>
+                    <span class="text-[8px] sm:text-[9px] tracking-[0.35em] text-gold font-bold uppercase mt-1">Outdoor Day Spa &bull; Potchefstroom</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:flex items-center gap-8 text-xs font-semibold uppercase tracking-widest text-sage">
+                <a href="/" class="nav-link text-gold font-bold transition-colors duration-300">Home</a>
+                <a href="/treatments" class="nav-link text-gray-500 hover:text-sage transition-colors duration-300">Treatments</a>
+                <a href="/packages" class="nav-link text-gray-500 hover:text-sage transition-colors duration-300">Packages</a>
+                <a href="/etiquette" class="nav-link text-gray-500 hover:text-sage transition-colors duration-300">Etiquette</a>
+                <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="bg-sage text-white px-6 py-3.5 hover:bg-gold hover:text-sage transition-all duration-300 shadow-sm">Book Now</a>
+            </nav>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="mobile-menu-btn" class="lg:hidden text-sage text-2xl focus:outline-none p-2 shrink-0 transition-transform active:scale-95" aria-label="Toggle Menu">
+                <span class="block w-6 h-0.5 bg-sage mb-1.5 transition-all" id="bar1"></span>
+                <span class="block w-6 h-0.5 bg-sage mb-1.5 transition-all" id="bar2"></span>
+                <span class="block w-6 h-0.5 bg-sage transition-all" id="bar3"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Slide-Down Menu Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-sage/5 py-6 px-4 space-y-4 absolute top-full left-0 w-full shadow-lg animate-fade-in z-50">
+            <a href="/" class="block text-sm font-semibold uppercase tracking-wider text-gold py-2 border-b border-sand">Home</a>
+            <a href="/treatments" class="block text-sm font-semibold uppercase tracking-wider text-sage py-2 border-b border-sand hover:text-gold transition-colors">Treatments</a>
+            <a href="/packages" class="block text-sm font-semibold uppercase tracking-wider text-sage py-2 border-b border-sand hover:text-gold transition-colors">Packages</a>
+            <a href="/etiquette" class="block text-sm font-semibold uppercase tracking-wider text-sage py-2 border-b border-sand hover:text-gold transition-colors">Etiquette</a>
+            <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="block text-center bg-sage text-white text-xs font-bold uppercase tracking-widest py-3.5 shadow">Book Now</a>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- HERO SECTION -->
+        <section class="hero-wrapper bg-sage text-sand py-24 sm:py-32 md:py-44 text-center relative overflow-hidden flex items-center justify-center min-h-[75vh]">
+            <img src="/.netlify/images?url=/img/hero.jpeg&w=1800&h=1100&fit=cover&fm=webp&q=78"
+                 alt="Ivy-covered walkway leading to a thatched treatment gazebo at Beauty Unique Outdoor Day Spa"
+                 class="absolute inset-0 w-full h-full object-cover" fetchpriority="high">
+            <div class="absolute inset-0 bg-sage/80"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-sage via-sage/40 to-sage/70"></div>
+            <div class="absolute inset-0 opacity-[0.12] pointer-events-none" style="background-image: radial-gradient(#FAF8F5 1.5px, transparent 1.5px); background-size: 24px 24px;"></div>
+            <div class="max-w-5xl mx-auto px-6 relative z-10 space-y-8">
+                <span class="text-gold uppercase tracking-[0.4em] font-bold text-xs sm:text-sm block">Paradys on the Mooiriver</span>
+                <h2 class="font-serif text-4xl sm:text-6xl md:text-8xl leading-none font-light tracking-wide">Where All Your<br><span class="italic text-gold font-normal font-serif">Stress Melts Away</span></h2>
+                <p class="max-w-xl mx-auto text-sm sm:text-base md:text-lg font-light text-gray-200 leading-relaxed font-serif italic">
+                    Welcome to Beauty Unique Outdoor Day Spa — a tranquil escape where treatments are enjoyed in nature, right next to the Mooirivier.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4 max-w-md mx-auto sm:max-w-none">
+                    <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="w-full sm:w-auto text-center bg-gold hover:bg-white text-sage px-8 py-4 font-bold text-xs uppercase tracking-[0.25em] transition-all duration-300 shadow-md">Book Your Escape</a>
+                    <a href="/packages" class="w-full sm:w-auto text-center border border-white/35 hover:bg-white/10 text-white px-8 py-4 font-bold text-xs uppercase tracking-[0.25em] transition-all duration-300">View Packages</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE & PARADYS STORY SECTION -->
+        <section class="experience-wrapper py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+
+                <!-- Left: Asymmetrical Rounded Media Grid -->
+                <div class="lg:col-span-6 flex flex-col sm:flex-row items-center justify-center gap-6">
+                    <!-- Left larger image card -->
+                    <div class="photo-frame w-full sm:w-72 h-72 rounded-[1.5rem] shadow-md border border-gold/10 hover:border-gold/30 hover:scale-[1.02] transition-all duration-300 luxury-border-glow">
+                        <img src="/.netlify/images?url=/img/massage5.jpeg&w=720&h=720&fit=cover&fm=webp&q=78"
+                             alt="Ivy tunnel walkway opening onto a private outdoor treatment room" loading="lazy">
+                    </div>
+
+                    <!-- Right offset smaller image card -->
+                    <div class="photo-frame w-full sm:w-64 h-64 rounded-[1.5rem] shadow-md border border-gold/10 hover:border-gold/30 hover:scale-[1.02] transition-all duration-300 sm:mt-12 luxury-border-glow">
+                        <img src="/.netlify/images?url=/img/relaxingarea.jpeg&w=640&h=640&fit=cover&fm=webp&q=78"
+                             alt="Massage bed under a thatched roof with linen curtains drawn open to the garden" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Right: Editorial Narrative Content -->
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-gold uppercase tracking-[0.25em] font-bold text-[10px] sm:text-[11px] block">The Experience</span>
+                    <h3 class="font-serif text-3xl sm:text-5xl text-sage leading-none font-light">
+                        Find Your Own <br>
+                        <span class="italic text-gold font-normal font-serif">Paradys</span>
+                    </h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed font-light">
+                        Beauty Unique Outdoor Day Spa is a place where relaxation, nature, and care come together. Set in a peaceful natural environment, our treatments are done surrounded by the beauty and calm of nature. It is more than just a spa experience — it is a space to slow down, breathe deeply, and truly unwind.
+                    </p>
+
+                    <!-- Sub-Highlights Block -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t border-sage/5">
+                        <!-- Highlight 1 -->
+                        <div class="space-y-1">
+                            <div class="flex items-center gap-2 text-gold">
+                                <span class="text-lg">𓆸</span>
+                                <h5 class="font-bold text-[11px] tracking-wider uppercase text-sage">Nature Atmosphere</h5>
+                            </div>
+                            <p class="text-xs text-gray-500 pl-7 leading-relaxed font-light">Surrounded by ancient trees and the calming sound of water.</p>
+                        </div>
+
+                        <!-- Highlight 2 -->
+                        <div class="space-y-1">
+                            <div class="flex items-center gap-2 text-gold">
+                                <span class="text-lg">❈</span>
+                                <h5 class="font-bold text-[11px] tracking-wider uppercase text-sage">Pure Tranquility</h5>
+                            </div>
+                            <p class="text-xs text-gray-500 pl-7 leading-relaxed font-light">A sanctuary designed to quiet the mind and restore the spirit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Highlight Attribute Cards Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-16">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 border border-sage/5 rounded-2xl text-center flex flex-col items-center justify-center space-y-3 luxury-card shadow-sm hover:shadow-md transition-all duration-300">
+                    <span class="text-gold text-2xl">𓆸</span>
+                    <h5 class="font-serif text-lg font-semibold text-sage">Outdoor Serenity</h5>
+                    <p class="text-xs text-gray-500 font-light leading-relaxed">Outdoor treatments in nature next to the Mooirivier.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-8 border border-sage/5 rounded-2xl text-center flex flex-col items-center justify-center space-y-3 luxury-card shadow-sm hover:shadow-md transition-all duration-300">
+                    <span class="text-gold text-2xl">❈</span>
+                    <h5 class="font-serif text-lg font-semibold text-sage">Riverfront Peace</h5>
+                    <p class="text-xs text-gray-500 font-light leading-relaxed">Peaceful setting next to the Mooirivier bank.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-8 border border-sage/5 rounded-2xl text-center flex flex-col items-center justify-center space-y-3 luxury-card shadow-sm hover:shadow-md transition-all duration-300">
+                    <span class="text-gold text-2xl">❀</span>
+                    <h5 class="font-serif text-lg font-semibold text-sage">Decades of Expertise</h5>
+                    <p class="text-xs text-gray-500 font-light leading-relaxed">Over 50 years of combined therapy experience.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white p-8 border border-sage/5 rounded-2xl text-center flex flex-col items-center justify-center space-y-3 luxury-card shadow-sm hover:shadow-md transition-all duration-300">
+                    <span class="text-gold text-2xl">✦</span>
+                    <h5 class="font-serif text-lg font-semibold text-sage">Personal Touch</h5>
+                    <p class="text-xs text-gray-500 font-light leading-relaxed">Professional beauty care with a loving, personal touch.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY STRIP — the grounds themselves -->
+        <section class="gallery-wrapper py-12 sm:py-16 bg-white border-y border-sage/5">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+                <div class="text-center space-y-2">
+                    <span class="text-gold uppercase tracking-[0.25em] font-bold text-[11px] block">The Grounds</span>
+                    <h3 class="font-serif text-3xl sm:text-4xl text-sage font-light">A Garden Built for Stillness</h3>
+                </div>
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="photo-frame aspect-[4/5] rounded-2xl shadow-sm">
+                        <img src="/.netlify/images?url=/img/road2.jpeg&w=560&h=700&fit=cover&fm=webp&q=78" alt="Wooden walkway winding through indigenous riverside bush" loading="lazy">
+                    </div>
+                    <div class="photo-frame aspect-[4/5] rounded-2xl shadow-sm">
+                        <img src="/.netlify/images?url=/img/pedichair1.jpeg&w=560&h=700&fit=cover&fm=webp&q=78" alt="Pedicure loungers set beneath a thatched roof in the trees" loading="lazy">
+                    </div>
+                    <div class="photo-frame aspect-[4/5] rounded-2xl shadow-sm">
+                        <img src="/.netlify/images?url=/img/table.jpeg&w=560&h=700&fit=cover&fm=webp&q=78" alt="Lantern and linen on a wooden deck table overlooking the forest" loading="lazy">
+                    </div>
+                    <div class="photo-frame aspect-[4/5] rounded-2xl shadow-sm">
+                        <img src="/.netlify/images?url=/img/stairs2.jpeg&w=560&h=700&fit=cover&fm=webp&q=78" alt="Rustic timber railing on the riverside deck" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HEALING PARTNERS REPEATING INFINITE BANNER -->
+        <section class="partners-marquee-wrapper py-6 bg-[#FAF8F5] border-t border-sage/5 overflow-hidden flex flex-col justify-center">
+            <div class="max-w-7xl mx-auto px-4 text-center mb-4">
+                <span class="text-[9px] uppercase tracking-[0.35em] text-sage/60 font-bold block">Our Professional Healing Partners</span>
+            </div>
+            <!-- Infinite marquee loop container -->
+            <div class="relative w-full flex overflow-x-hidden whitespace-nowrap py-1 border-b border-sage/5 select-none">
+                <div class="animate-marquee-loop flex gap-12 sm:gap-24 shrink-0 min-w-full items-center justify-around">
+                    <span class="font-serif text-lg sm:text-2xl tracking-[0.25em] text-sage uppercase font-light">Willa Krause</span>
+                    <span class="text-gold text-sm select-none">&#10044;</span>
+                    <span class="font-serif text-lg sm:text-2xl tracking-[0.25em] text-sage uppercase font-light">Dr. Esthé</span>
+                    <span class="text-gold text-sm select-none">&#10044;</span>
+                    <span class="font-serif text-lg sm:text-2xl tracking-[0.25em] text-sage uppercase font-light">Willa Krause</span>
+                    <span class="text-gold text-sm select-none">&#10044;</span>
+                    <span class="font-serif text-lg sm:text-2xl tracking-[0.25em] text-sage uppercase font-light">Dr. Esthé</span>
+                    <span class="text-gold text-sm select-none">&#10044;</span>
+                </div>
+                <!-- Duplicate array for seamless loops -->
+                <div class="animate-marquee-loop flex gap-12 sm:gap-24 shrink-0 min-w-full items-center justify-around" aria-hidden="true">
+                    <span class="font-serif text-lg sm:text-2xl tracking-[0.25em] text-sage uppercase font-light">Willa Krause</span>
+                    <span class="text-gold text-sm select-none">&#10044;</span>
+                    <span class="font-serif text-lg sm:text-2xl tracking-[0.25em] text-sage uppercase font-light">Dr. Esthé</span>
+                    <span class="text-gold text-sm select-none">&#10044;</span>
+                    <span class="font-serif text-lg sm:text-2xl tracking-[0.25em] text-sage uppercase font-light">Willa Krause</span>
+                    <span class="text-gold text-sm select-none">&#10044;</span>
+                    <span class="font-serif text-lg sm:text-2xl tracking-[0.25em] text-sage uppercase font-light">Dr. Esthé</span>
+                    <span class="text-gold text-sm select-none">&#10044;</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- OUR LEGACY SECTION -->
+        <section class="legacy-wrapper py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-sand border-b border-sage/5">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+                <!-- Left: Narrative Text & Large Stat -->
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="text-gold uppercase tracking-[0.25em] font-bold text-[11px] block">Our Legacy</span>
+                    <h3 class="font-serif text-3xl sm:text-5xl text-sage leading-none font-light">Two Decades of Serenity</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed font-light">
+                        Established at the turn of the millennium, Beauty Unique has been a cornerstone of relaxation. Our riverfront property has evolved from a hidden gem into a premier luxury destination, always maintaining its core connection to the natural landscape of the Mooirivier.
+                    </p>
+
+                    <!-- Huge Stat Block -->
+                    <div class="flex items-center gap-4 pt-6">
+                        <span class="font-serif text-6xl md:text-7xl font-bold text-sage leading-none">20</span>
+                        <div class="space-y-0.5">
+                            <span class="font-bold text-[11px] tracking-wider uppercase text-sage block leading-tight">Years on the Mooiriver</span>
+                            <span class="text-xs text-gray-500 font-mono block">2000 — 2020 &amp; Beyond</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Overlapping Image Card & Absolute Quote Banner -->
+                <div class="lg:col-span-5 relative flex items-center justify-center pt-4 pb-12 sm:pb-8">
+                    <div class="w-full max-w-md relative">
+                        <div class="photo-frame aspect-[4/5] rounded-[1.5rem] shadow-xl border border-gold/10 hover:border-gold/30 transition-all duration-300">
+                            <img src="/.netlify/images?url=/img/front.jpeg&w=800&h=1000&fit=cover&fm=webp&q=78"
+                                 alt="Rose-covered archways framing the path to the thatched spa house" loading="lazy">
+                        </div>
+
+                        <!-- Absolute Overlapping Quote Block (Bottom Edge) -->
+                        <div class="absolute -bottom-6 left-6 right-6 bg-white p-4 text-center shadow-lg border border-sage/5 rounded-[0.5rem] z-10">
+                            <p class="text-xs text-sage font-serif italic font-medium leading-relaxed">
+                                "Twenty years later, in 2020, that dream came true."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- OUR EXPERT TEAM SECTION -->
+        <section class="experts-wrapper py-16 sm:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+                <!-- Left: Asymmetrical Image Card with Overlapping Badge -->
+                <div class="lg:col-span-5 relative flex items-center justify-center pt-8">
+                    <!-- Overlapping Top-Left Gold Badge -->
+                    <div class="absolute -top-4 left-4 sm:-left-2 bg-[#2D4739] text-white p-4 py-5 rounded-[1rem] shadow-xl border border-gold/20 text-center z-10 w-28">
+                        <span class="font-serif text-2xl font-bold text-gold block leading-none">50+</span>
+                        <span class="text-[8px] uppercase tracking-widest block font-bold leading-tight mt-1.5 text-gray-200">Years Combined Experience</span>
+                    </div>
+
+                    <!-- Main Image Card -->
+                    <div class="photo-frame w-full max-w-md aspect-[4/5] rounded-[1.5rem] shadow-xl border border-gold/10 relative z-0 hover:border-gold/30 transition-all duration-300">
+                        <img src="/.netlify/images?url=/img/massage4.jpeg&w=800&h=1000&fit=cover&fm=webp&q=78"
+                             alt="Two massage beds prepared side by side in the open air" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Right: Editorial Bio & Roster -->
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="text-gold uppercase tracking-[0.25em] font-bold text-[11px] block">The Experts</span>
+                    <h3 class="font-serif text-4xl sm:text-5xl text-sage leading-none font-light">Our Expert Team</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed font-light">
+                        Every touch is guided by decades of knowledge in holistic wellness and advanced skin therapy. Our team represents a collective passion for the healing arts, ensuring your experience is both restorative and deeply professional.
+                    </p>
+
+                    <!-- Therapists List Meta Text -->
+                    <div class="text-xs text-gray-500 font-light border-t border-sage/5 pt-6 leading-relaxed">
+                        <strong class="text-sage font-semibold uppercase tracking-wider text-[10px] block mb-1">Therapists:</strong>
+                        Cedes (Acrylic Specialist), Zanne (Skincare Therapist), Karin (Aesthetic Expert), Anne-Marie (Owner / Reflexology Practitioner), Nianca (Therapy Specialist).
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLOSING BOOKING BAND -->
+        <section class="relative overflow-hidden py-20 sm:py-28 text-center">
+            <img src="/.netlify/images?url=/img/table1.jpeg&w=1600&h=800&fit=cover&fm=webp&q=78"
+                 alt="Table set for a spa lunch on a deck deep in the riverside forest" class="absolute inset-0 w-full h-full object-cover" loading="lazy">
+            <div class="absolute inset-0 bg-sage/85"></div>
+            <div class="relative z-10 max-w-3xl mx-auto px-6 space-y-6">
+                <span class="text-gold uppercase tracking-[0.35em] font-bold text-[11px] block">Reserve Your Time</span>
+                <h3 class="font-serif text-3xl sm:text-5xl text-sand font-light leading-tight">Your Escape Is One <span class="italic text-gold">Booking</span> Away</h3>
+                <p class="text-sm text-gray-200 font-light font-serif italic max-w-xl mx-auto">
+                    Choose your treatment or package and secure your spot in the garden. Bookings are handled securely through Fresha.
+                </p>
+                <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-gold hover:bg-white text-sage px-10 py-4 font-bold text-xs uppercase tracking-[0.25em] transition-all duration-300 shadow-md">Book Now</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-sage text-[#FAF8F5] pt-16 pb-10 border-t-2 border-gold relative z-10">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-white/10 pb-12">
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2">
+                        <span class="text-gold text-2xl font-serif">𓆸</span>
+                        <h4 class="font-serif text-2xl font-bold tracking-wider uppercase">BEAUTY UNIQUE</h4>
+                    </div>
+                    <p class="text-xs text-gray-300 leading-relaxed font-light">
+                        Nestled along the scenic banks of the Mooirivier, where professional body care meets the complete sanctuary of nature.
+                    </p>
+                    <a href="https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz" target="_blank" rel="noopener" class="inline-block bg-gold text-sage px-6 py-3 text-[10px] font-bold uppercase tracking-[0.25em] hover:bg-white transition-colors">Book Your Escape</a>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-serif text-lg text-gold tracking-widest uppercase">The Sanctuary gates</h5>
+                    <ul class="text-xs text-gray-300 space-y-2.5 font-light">
+                        <li>📍 1 Nardus Conradie Street, Mooivallei Park, Potchefstroom</li>
+                        <li>📞 Phone: <a href="tel:+27834510586" class="hover:text-gold transition-colors">083 451 0586</a></li>
+                        <li>✉️ Email: <a href="mailto:beautyunique.amdb@gmail.com" class="hover:text-gold transition-colors">beautyunique.amdb@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-serif text-lg text-gold tracking-widest uppercase">Hours of Serenity</h5>
+                    <ul class="text-xs text-gray-300 space-y-2 font-light">
+                        <li>Monday — Friday: 8:00 AM — 5:00 PM</li>
+                        <li>Saturday: 9:00 AM — 1:00 PM</li>
+                    </ul>
+                    <ul class="text-xs text-gray-300 space-y-2 font-light pt-4 border-t border-white/10">
+                        <li><a href="/treatments" class="hover:text-gold transition-colors">Treatments</a></li>
+                        <li><a href="/packages" class="hover:text-gold transition-colors">Spa Packages</a></li>
+                        <li><a href="/etiquette" class="hover:text-gold transition-colors">Etiquette</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 text-center text-[10px] text-gray-400">
+                <p>&copy; 2000 - 2026 Beauty Unique Outdoor Day Spa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/site.js" defer></script>
+</body>
+</html>

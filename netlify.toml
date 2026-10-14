@@ -1,0 +1,36 @@
+# Beauty Unique Outdoor Day Spa — static site configuration
+# Custom domain: beautyuniqueoutdoorspa.com (add it under Project → Domain management)
+
+[build]
+  publish = "public"
+
+# Photographs are served through the Netlify Image CDN, so the originals
+# can be cached aggressively at the edge.
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Friendly aliases for links that may already be in circulation
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/booking"
+  to = "https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/book"
+  to = "https://www.fresha.com/a/beauty-unique-outdoor-day-spa-potchefstroom-potchefstroom-1-nardus-conradie-street-y1aoauuz"
+  status = 302
+  force = true
